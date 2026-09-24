@@ -89,7 +89,7 @@ The Joomla Continuous Integration (CI) environment has been extended to run test
 2. New *Checked_out* filter for articles in the administrator backend and API.
 3. New parameter *Year Sort Order* for archived articles.
 4. New cloud-based development and testing environment using GitHub Codespaces.
-5. Starting with Joomla 5.4.10, a new *fieldsToPreserveOnClear* option is available for the Search Tools layout.
+5. Starting with Joomla 5.4.9, a new *fieldsToPreserveOnClear* option is available for the Search Tools layout.
 
 <details>
   <summary>Pull Requests in Detail</summary>
@@ -120,7 +120,7 @@ The Joomla Continuous Integration (CI) environment has been extended to run test
      * This provides Joomla, phpMyAdmin, interactive Cypress tests, VS Code and command-line access, see
        [Testing/Manual Testing/GitHub Codespaces](https://manual.joomla.org/docs/5.4/testing/manually/github-codespaces/).
 
-  5. Starting with Joomla 5.4.10, a new *fieldsToPreserveOnClear* option is available for the Search Tools layout.
+  5. Starting with Joomla 5.4.9, a new *fieldsToPreserveOnClear* option is available for the Search Tools layout.
      * [48468](https://github.com/joomla/joomla-cms/pull/48468) Fix clearing the workflows context selector -
        redo of [48079](https://github.com/joomla/joomla-cms/pull/48079) for 5.4.
      * This was needed to fix a regression introduced in 5.4.4 with
